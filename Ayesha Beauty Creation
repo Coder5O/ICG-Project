@@ -14,3 +14,32 @@ Get Customer_ID
 get all
 display Customers
 End
+
+
+Start
+print "How many Shampoo bottles do we sell?"
+get Shampoo_Value
+print "How many Conditioner bottles do we sell?"
+get Condition_Value
+print "How many customers do we get daily?"
+get customerValue
+print "do you want to view all transactions today?"
+get response
+If (response == "Y")
+then display Daily_sale_transactions
+endif
+add all Daily_sale_transactions = totalsales
+End
+
+Start
+Print "Our drive is to better your beauty routine."
+Get Business_Drive
+Print "do you want to contact us?"
+Get response ("Yes" or "No")
+If (response == Yes)
+then display 'contact number(0616704567) and email address(ayeshabeauty@gmail.com)'
+endif
+Prompt user for More_info
+Get More_info
+Display More_info (Our company has been in business for over...)
+End
