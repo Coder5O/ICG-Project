@@ -1,0 +1,16 @@
+Start
+prompt user for Name
+get Name
+prompt user for Surname
+get Surname
+prompt user for Cellphone
+get Cellphone
+prompt user for email
+get email
+prompt user for Age
+get Age
+prompt user for Customer_ID
+Get Customer_ID
+get all
+display Customers
+End
