@@ -54,14 +54,3 @@ endif
 diplay "Welcome employeeName"
 End
 
-Start 
-Prompt user for Employee_ID
-Get Employee_ID
-Prompt user for Employee_Name
-Get Employee_Name
-Prompt user for Employee_JoinDate
-Get Employee_JoinDate
-Prompt user for Employee_Department
-Get Employee_Department
-Display
-End
