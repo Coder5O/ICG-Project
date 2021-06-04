@@ -14,6 +14,7 @@ Get Customer_ID
 get all
 display Customers
 End
+
 Start
 print "How many Shampoo bottles do we sell?"
 get Shampoo_Value
@@ -28,6 +29,7 @@ then display Daily_sale_transactions
 endif
 add all Daily_sale_transactions = totalsales
 End
+
 Start
 Print "Our drive is to better your beauty routine."
 Get Business_Drive
@@ -40,6 +42,7 @@ Prompt user for More_info
 Get More_info
 Display More_info (Our company has been in business for over...)
 End
+
 Start 
 Prompt user for employeeName
 get employeeName
@@ -50,6 +53,7 @@ display "please enter passoword"
 endif
 diplay "Welcome employeeName"
 End
+
 Start 
 Prompt user for Employee_ID
 Get Employee_ID
